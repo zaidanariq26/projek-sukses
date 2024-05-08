@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Models\Post;
 
 Route::get('/', function () {
     return view('home', [
@@ -20,10 +21,20 @@ Route::get('/about', function () {
     ]);
 });
 
-
-Route::get('/blog', function () {
+Route::get('/posts', function () {
     return view('posts', [
-        "title" => "Posts"
+        "title" => "Lowongan Magang",
+        "posts" => Post::all()
+
+    ]);
+});
+
+
+Route::get('/posts/{slug}', function ($slug) {
+    return view('posts', [
+        "title" => "Single Posts",
+        "post" => Post::find($slug)
+
     ]);
 });
 

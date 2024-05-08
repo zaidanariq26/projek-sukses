@@ -5,7 +5,7 @@
         <div class="col-lg-5 offset-lg-1">
             <h3 style="font-weight: bold">Selamat datang di web <br> pendaftaran magang SDPPI Kominfo</h3>
             <p>Mulailah pengalamanmu dengan mendaftarkan diri dan bergabung dengan kami</p>
-            <button class="tombol btn mt-2 mb-5" style="background-color: #6CBEF9; width: 208px; border-radius: 10px; font-weight: 700; color: white ; text-align: center; padding: 12px 8px;"  type="submit">Daftar Sekarang <img src="img/rightA.png" alt=""></button>
+            <a href="/register"><button class="tombol btn mt-2 mb-5" style="background-color: #6CBEF9; width: 208px; border-radius: 10px; font-weight: 700; color: white ; text-align: center; padding: 12px 8px;"  type="submit">Daftar Sekarang <img src="img/rightA.png" alt=""></button></a>
         </div>
         <div class="col-lg-5">
             <img src="img/picture1.png" alt="" class="img-fluid">

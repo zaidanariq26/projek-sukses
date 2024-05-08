@@ -10,7 +10,7 @@
             <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}"  href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ ($title === "Daftar Magang") ? 'active' : '' }}" href="#">Daftar Magang</a>
+            <a class="nav-link {{ ($title === "Lowongan Magang") ? 'active' : '' }}" href="/posts">Lowongan Magang</a>
           </li>
           <li class="nav-item">
             <a class="nav-link {{ ($title === "About") ? 'active' : '' }}" href="/about">Tentang Kominfo</a>
